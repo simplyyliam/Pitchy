@@ -7,7 +7,6 @@ export default function Dashboard() {
       <div className="flex items-center justify-center gap-2.5">
         <Link to="/tuner">Tuner</Link>
       </div>
-      
     </div>
   )
 }
