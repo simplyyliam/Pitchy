@@ -1,6 +1,6 @@
 import { createBrowserRouter, type RouteObject } from "react-router-dom";
 import type { ComponentType } from "react";
-import { Dashboard, Tuner } from "./pages";
+import { Dashboard, Encoder, Tuner } from "./pages";
 
 type PageModule = {
   default: ComponentType;
@@ -56,5 +56,9 @@ export const Router = createBrowserRouter([
   {
     path: "tuner",
     element: <Tuner/>
+  },
+  {
+    path: "encoder",
+    element: <Encoder/>
   }
 ]);
